@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Physiotherepist</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link  rel ="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+<script src="jquery.js"></script>
+<script type="text/javascript">
+
+			$(function() {
+				$('a[href*="#"]:not([href="#"])').click(function() {
+			if(location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				if(target.length) {
+						$('html,body').animate({
+							scrollTop: target.offset().top
+					},1000);
+				return false;
+			}
+		}
+	});
+	});
+	</script>
+
+
+</head>
+<body>
+<nav class="navbar navbar-dark navbar-expand-lg sticky-top">
+	<div class="container-fluid">
+		<div class="navbar-dark">Purvi's Physiotherepy Center</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="aboutus.html">About us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contactus.html">Contact us</a>
+					</li>
+					
+				</ul>
+			</div>
+	</div>
+</nav>
+<!--IMAGE SLIDER-->
+<div id="slides" class="carousel slide" data-ride="carousel">
+		<ul class="carousel-indicators">
+			<li data-target="#slides" data-slide-to="0" class="active"></li>
+			<li data-target="#slides" data-slide-to="1"></li>
+			
+		</ul>
+
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img src="image/i3.jpg">
+				<div class="carousel-caption">
+					<h1 class="display-3">Purvi's Physiotherepy and Fitness Center</h1>
+					<h3>Where You Can Feel the Change.</h3>
+					<a href="#down_id"><button type="button" class="btn btn-outline-light btn-lg">Our services</button></a>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="image/i2.jpg">
+				<div class="carousel-caption ">
+					<h2 class="color1">Helping people to take steps towards <span class="col11">healthy</span> and <span class="col11">fit</span> body.</h2>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+<!-- JUMBOTRON-->
+	<div class="container-fluid" >
+		
+		<div class="row jumbotron text-center ">
+			
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 ">
+				<p class="lead "><span id="col"> Purvi's physiotherapy and fitness center </span> provides excellent
+				service in treating various types of pains and cures it in all the possible way. Here care of each patient is taken.<span id="col_green"> If u have pain then come & experience yourself our pain realiving treatment.</span></p>
+			</div>
+		</div>
+			</div>
+			<!--IMAGE AND TEXT-->
+	<div class="container-fluid padding">
+		<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">About Center</h1>
+		<hr>
+	</div>
+	</div>
+	</div>	
+	<div class="container-fluid padding">
+		<div class="row welcome text-center">
+		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-3 col-xl-2">
+					<img class="my1" src="image/doc.jpg">
+			</div>
+			<div class="col-xs-8 col-sm-8 col-md-8 col-lg-9 col-xl-10 ">
+				<p class="lead hw"><span id="col">Purvi thakker(Bpth/Bpt)</span> is a senior most doctor at Purvi's physiotherapy and fitness center and she is also owner of it. She has a wide experience in treating patients with utmost care. As a physiotherapist she'll help patients with physical difficulties resulting from illness, injury, disability or ageing to improve their movement. she'll devise and review treatment programmes using manual therapy (such as massage), therapeutic exercise and electrotherapy.
+
+As well as treating patients, she'll also promote the health and wellbeing of patient and provide advice on how to avoid injury and self-manage long-term conditions.  </p>
+			</div>
+	</div>
+	</div>
+
+	<!--WELCOME -->
+	<div class="container-fluid padding-more" id="down_id">
+		<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Our services</h1>
+		<hr>
+		</div>
+		
+		<div class="col-12">
+			<p class="lead hw">We the team of Purvi physiotherapy and fitness center are always there to provide treatment to our beloved patients. Prelimanary we treat all types of injuries related to neck, shoulder, back and all the other parts.</p>
+		</div>
+	</div>
+	</div>
+	<!--Three sections-->
+	<div class="container-fluid padding">
+		<div class="row text-center padding">
+			<div class="cols-xs-12 col-sm-6 col-md-4 " >
+				<img  class="image-fluid bord" src="image/back.jpg" >
+				<h4 id="col">Backpain</h4>
+				<p class="lead hw text-justify" > Back pain that comes on suddenly and lasts no more than six weeks (acute) can be caused by a fall or heavy lifting. Back pain that lasts more than three months (chronic) is less common than acute pain. Conditions commonly linked to back pain include: Muscle or ligament strain.</p>
+			</div>
+			<div class="cols-xs-12 col-sm-6 col-md-4">
+				<img class="image-fluid bord" class="image-fluid" src="image/neck.jpg" height="" >
+				<h4 id="col">Neckpain</h4>
+				<p class="lead hw text-justify">Any abnormalities, inflammation, or injury can cause neck pain or stiffness. Many people experience neck pain or stiffness occasionally. In many cases, it's due to poor posture or overuse. Sometimes, neck pain is caused by injury from a fall, contact sports, or whiplash. </p>
+			</div>
+			<div class=" col-sm-12 col-md-4">
+				<img class="image-fluid bord" src="image/shoulder.jpg">
+				<h4 id="col">Shoulderpain</h4>
+				<p class="lead hw text-justify" >Rotator cuff a part which alllows you to move shoulder freely is the most common cause of shoulder pain. Swelling, damage, or bone changes around the rotator cuff can cause shoulder pain. You may have pain when lifting the arm above your head or moving it forward or behind.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid padding text-center">
+		<hr>
+		<div class="row padding">
+			<div class="col-12">
+				<h2>Connect With Us</h2>
+			</div>
+			<div class="col-12 social padding">
+				<a href="#"><img src="image/fb.png" height="50px" width="50px"></a>
+				<a href="#"><img src="image/insta.png" height="50px" width="50px"></a>
+			</div>
+		</div>
+	</div>
+	<footer>
+		
+	<div class="container-fluid ">
+		<div class="row text-center">
+			<div class="col-md-6 ">
+				<hr class="light">
+				<p>Dr. Purvi Thakker</p>
+				<hr class="light">
+				<p>9601765748</p>
+				<p>purviphsiofit@gmail.com</p>
+
+			</div>
+			<div class="col-md-6">
+				<hr class="light">
+				<p>Our hours</p>
+				<hr class="light">
+				<p>Monday-friday: 10am 7pm</p>
+				<p>Sunday: 10am 12pm</p>
+			</div>
+
+			<div class="col-12">
+				<hr class="light">
+				<h5>&copy; purviphysio.com</h5>
+			</div>
+		</div>
+	</div>
+	</footer>
+</body>
+</html>

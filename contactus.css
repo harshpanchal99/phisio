@@ -1,0 +1,151 @@
+@font-face
+{
+	font-family: krist;
+	src:url(fonts/Comfortaa-Regular.ttf);
+}
+
+html,body
+{
+	height:100%;
+	width:100%;
+	font-family: krist !important;
+	color: #222;
+	
+}
+body
+{
+	background: url("image/i3.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+hr
+{
+	background-color: black;
+}
+.navbar-dark
+{
+	background-color: #8BC34A !important;
+	font-size: 115%   !important;
+	color: white !important;
+}
+
+.navbar
+{
+	padding: :.8rem;
+}
+.nav-link
+{
+	font-size: 1.1em !important;
+}	
+.navbar-nav li
+{
+	padding-right: 20px;
+}
+.padding
+{
+	padding-top: 30px;
+}
+.margin
+{
+	margin-top: 15px;
+}
+h2,h4
+{
+	color: white!important;
+}
+.my1
+{
+	
+	border-radius: 5px;
+	width:55%;
+	height:80%;
+	box-shadow: 2px 2px 40px 5px black;
+}
+footer
+{
+	font-size: larger;
+    background-color: #8BC34A;
+    color: darkcyan;
+}
+::-webkit-scrollbar
+{
+	width: 8px;
+	
+}
+::-webkit-scrollbar-thumb
+{
+	border-radius: 0px 0px 50px 50px ;
+	background-color: #8BC34A;
+	box-shadow: 0px 5px 10px 0px black;
+}
+::-webkit-scrollbar-track
+{
+	border-radius: 50px ;
+	background-color: white;
+}
+
+@media (max-width: 768px)
+{
+	.my1
+	{
+	    border-radius: 5px;
+    width: 91%;
+    height: 80%;
+    box-shadow: 2px 2px 40px 5px black;
+    margin-bottom: 130px;
+	}
+}
+@media(max-width: 1025px)
+{
+	.navbar-dark
+{
+	background-color: #8BC34A !important;
+	font-size: 127%   !important;
+	color: white !important;
+}
+.margin
+{
+	margin-top: 90px;
+}
+	.my1
+	{
+	    border-radius: 5px;
+    width: 91%;
+    height: 80%;
+    box-shadow: 2px 2px 40px 5px black;
+    margin-bottom: 190px;
+	}
+	footer
+	{
+		margin-top: 21px;
+	}
+}
+@media (max-width: 510px)
+{
+.margin
+{
+	margin-top: 10px!important;
+}
+.navbar-dark
+{
+	font-size: 100%!important;
+}
+h4
+{
+	font-size: 100%!important;
+}
+.my1
+{
+	margin-bottom: 30px;	
+	border-radius: 5px;
+	width:70% !important;
+	height:80% !important;
+	box-shadow: 2px 2px 40px 5px black;
+}
+footer
+{
+	font-size: medium!important;
+    background-color: #8BC34A;
+    color: darkcyan;
+}
+}

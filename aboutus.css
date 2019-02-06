@@ -1,0 +1,134 @@
+@font-face
+{
+	font-family: krist;
+	src:url(fonts/Comfortaa-Regular.ttf);
+}
+@font-face
+{
+	font-family: kristi;
+	src:url(fonts/Poppins-Regular.ttf);
+}
+html,body
+{
+	height:100%;
+	width:100%;
+	margin: 0px;
+	font-family: krist !important;
+	color: #222;
+	//background-image: url("image/image.jpg");
+	background-size: 104% 100%;
+}
+hr
+{
+	background-color: black;
+}
+.navbar-dark
+{
+	background-color: #8BC34A !important;
+	font-size: 115%   !important;
+	color: white !important;
+}
+.col-xl-12
+{
+	font-family: kristi!important ;
+}
+h4
+{
+	color:  darkcyan !important;
+}
+.navbar
+{
+	padding: :.8rem;
+}
+.nav-link
+{
+	font-size: 1.1em !important;
+}
+.col-6
+{
+	height: 50%!important;
+}
+.padding
+{
+	padding:1% 1% 0% 1%; 
+}	
+.navbar-nav li
+{
+	padding-right: 20px;
+}
+.display-4
+{
+	color: white;
+}
+.pad
+{
+	margin-top: 50px;	
+}
+.coli
+{
+	color: purple!important;
+}
+.padding
+{
+	margin-top: 50px;
+	padding-top: 50px;
+	font-family: krist !important;
+}
+.my1
+{
+	margin-top: 5px;
+	border-radius: 5px;
+	width:100%;
+	height:100%;
+	box-shadow: 2px 2px 40px 5px black;
+}
+hr
+{
+	background-color: black;
+	
+}
+footer
+{
+	font-size: larger;
+    background-color: #8BC34A;
+    color: darkcyan;
+}
+::-webkit-scrollbar
+{
+	width: 8px;
+	
+}
+::-webkit-scrollbar-thumb
+{
+	border-radius: 0px 0px 50px 50px ;
+	background-color: #8BC34A;
+	box-shadow: 0px 5px 10px 0px black;
+}
+::-webkit-scrollbar-track
+{
+	border-radius: 50px ;
+	background-color: white;
+}
+@media (max-width: 510px)
+{
+.navbar-dark
+{
+	background-color: #8BC34A !important;
+	font-size: 100%   !important;
+	color: white !important;
+}
+footer
+{
+	font-size: medium!important;
+    background-color: #8BC34A;
+    color: darkcyan;
+}
+.text-justify
+{
+	font-size: 100%!important;
+}
+.my1
+{
+	margin-top: 10px!important;
+}
+}

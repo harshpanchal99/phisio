@@ -1,0 +1,313 @@
+@font-face
+{
+	font-family: krist;
+	src:url(fonts/Comfortaa-Regular.ttf);
+}
+
+html,body
+{
+	height:100%;
+	width:100%;
+	font-family: krist !important;
+	color: #222;
+}
+hr
+{
+	background-color: black;
+}
+
+.my1
+{
+	border-radius: 50%;
+	width:100%;
+	height: auto;
+	box-shadow: 2px 2px 40px 1px black;
+}
+.padding
+{
+	padding-bottom: 2rem; 
+}
+.padding-more
+{
+	padding-top: 3rem; 
+}
+
+.col11
+{
+	color: #FF5722;
+}
+#col_green
+{
+	color: #8BC34A;
+	font-weight: bold;
+}
+#col
+{
+	font-weight: bold;
+	color: maroon;
+}
+.display-4
+{
+	color: maroon;	
+}
+
+.color1
+{
+	top:50%;
+	color:#009688;	
+	font-weight: bolder;
+	font-size: 300%;
+	text-align: center;
+}
+.navbar-dark
+{
+	background-color: #8BC34A !important;
+	font-size: 115%   !important;
+	color: white !important;
+}
+
+.navbar
+{
+	padding: :.8rem;
+}
+.nav-link
+{
+	font-size: 1.1em !important;
+}	
+.navbar-nav li
+{
+	padding-right: 20px;
+}
+.carousel-inner img
+{
+	height: 100%;
+	width: 100%;
+}
+.carousel-caption
+{
+	top: 50%;
+	transform: translateY(-50%);
+}
+.carousel-caption h1
+{
+	font-size: 375%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption h3
+{
+	font-size: 200%;
+	color: green;	
+	text-shadow: 1px 2px 10px #000;
+}
+.btn-primary
+{
+	background-color: #6648b1;
+	border:1px solid #563d76;
+}
+
+.hw
+{
+	font-size: 1rem !important;
+    text-align: justify;
+}
+.jumbotron 
+{
+    padding: 1rem !important;
+    background-color: lightgrey!important;
+}
+.bord
+{
+	border:0px solid black;
+	height: 200px;
+    width: auto;
+    margin-bottom: 5px;
+    border-radius: 5px;
+	box-shadow: 2px 2px 13px 1px black;
+}
+footer
+{
+	font-size: larger;
+    background-color: #8BC34A;
+    color: darkcyan;
+}
+
+
+
+
+
+@media (max-width: 992px)
+{
+	.bord
+{
+	border:0px solid black;
+	height: 100px;
+    width: auto;
+	box-shadow: 2px 2px 13px 1px black;
+}
+}
+
+@media (max-width: 768px)
+{
+.bord
+{
+	border:0px solid black;
+	height: 100px;
+    width: auto;
+	box-shadow: 2px 2px 13px 1px black;
+}
+.navbar-dark
+{
+	font-size: 100%!important;
+}
+.navbar-toggler
+{
+	font-size: 100%!important;
+}
+.carousel-caption
+{
+	position: absolute;
+    top: 55%;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+	
+}
+.carousel-caption h1
+{
+	font-size: 195%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption h3
+{
+	font-size: 70%;
+	text-transform: uppercase;
+	text-shadow: 1px 2px 10px #000;
+}
+.carousel-caption .btn
+{
+	font-size: 40%;
+
+}
+.display-4
+{
+	font-size: 200% !important;
+
+}
+.hw
+{
+	text-align: justify;
+	font-size: 1rem !important;
+}
+.cen
+{
+	align-self: center;
+}
+.color1
+{
+	
+	color:#009688;	
+	font-weight: bolder;
+	font-size: 195%;
+	text-align: center;
+}
+.my1
+{
+	width: 41%;
+	
+    height: auto;
+    box-shadow: 2px 2px 40px 1px black;
+    margin-bottom: 40px;
+    border-radius: 70px;
+}
+
+
+}
+
+@media (max-width: 510px)
+{
+
+.navbar-dark
+{
+	font-size: 100%!important;
+}
+.navbar-toggler
+{
+	font-size: 100%!important;
+}
+.carousel-caption
+{
+	top: 40%;
+}
+.carousel-caption h1
+{
+	font-size: 120%;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 10px #000;
+}
+.carousel-caption h3
+{
+	font-size: 70%;
+	text-transform: uppercase;
+	text-shadow: 1px 2px 10px #000;
+}
+.carousel-caption .btn
+{
+	font-size: 40%;
+
+}
+.display-4
+{
+	font-size: 200% !important;
+
+}
+.hw
+{
+	text-align: justify;
+	font-size: 1rem !important;
+}
+.cen
+{
+	align-self: center;
+}
+.color1
+{
+	
+	color:#009688;	
+	font-weight: bolder;
+	font-size: 125%;
+	text-align: center;
+}
+.my1
+{
+	width: 41%;
+    height: auto;
+    box-shadow: 2px 2px 40px 1px black;
+    margin-bottom: 40px;
+    border-radius: 70px;
+}
+
+}
+
+::-webkit-scrollbar
+{
+	width: 8px;
+	
+}
+::-webkit-scrollbar-thumb
+{
+	border-radius: 0px 0px 50px 50px ;
+	background-color: #8BC34A;
+	box-shadow: 0px 5px 10px 0px black;
+}
+::-webkit-scrollbar-track
+{
+	border-radius: 50px ;
+	background-color: white;
+}
